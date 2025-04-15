@@ -16,7 +16,7 @@ username admin password 1234
 username admin secret 1234                  ! titkositott jelszó (running configban nem látod)
 
 ! Enable secret
-enable secret Exam2025
+enable secret Exam2025                     ! Az enable secret Exam2025 parancs egy titkosított jelszót állít be magyarul jelszot kérsz ha beirod hogy "en" [privilegizált mód]
 enable password 1234
 
 ! Console port védelem
