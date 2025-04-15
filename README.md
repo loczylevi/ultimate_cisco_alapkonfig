@@ -37,7 +37,7 @@ exit
 ! SSH beállítás
 crypto key generate rsa
 1024
-crypto key generate rsa modulus 1024   ??? ez müködik?
+crypto key generate rsa modulus 1024        ! elv ezzel a commandal nem kérdezi meg a cisco device hogy hánx bites legyen a modulus kulcs
 ip ssh version 2
 
 ! titkositás
