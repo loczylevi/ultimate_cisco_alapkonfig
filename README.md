@@ -1,0 +1,1 @@
+# ultimate_cisco_alapkonfig
