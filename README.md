@@ -46,9 +46,9 @@ service password-encryption
 
 banner motd #
 +---------------------------------------+
-|  ILLETÉKTELEN HOZZÁFÉRÉS TILOS!       |
-|  BELÉPÉS CSAK JOGOSULT SZEMÉLYEKNEK.  |
-|  MINDEN TEVÉKENYSÉG NAPLÓZVA VAN.     | 
+|  ILLETEKTELEN HOZZAFERES TILOS!       |
+|  BELEPES CSAK JOGOSULT SZEMELYEKNEK.  |
+|  MINDEN TEVEKENYSEG NAPLOZVA VAN!     | 
 +---------------------------------------+
 #
 
