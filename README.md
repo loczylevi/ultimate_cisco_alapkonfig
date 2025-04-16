@@ -1,6 +1,6 @@
 # ultimate_cisco_alapkonfig
 
-## a generálásnál az 1024 után kell egy üres sor külömben rossz pl:
+## A generálásnál az 1024 után kell egy üres sor különben rossz pl:
 ```bash
 crypto key generate rsa
 1024
