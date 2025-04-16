@@ -52,14 +52,11 @@ banner motd #
 +---------------------------------------+
 #
 
-
-! ftp user
 ip ftp username 1234
 ip ftp password 1234
 
 no ip domain-lookup
 
-! Mentés
 end
 copy running-config startup-config 
 wr
