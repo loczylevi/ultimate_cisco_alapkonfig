@@ -23,7 +23,7 @@ enable secret 1234
 
 line con 0
 login local
-exec-timeout 5 0
+exec-timeout 1 0
 logging synchronous
 exit
 
