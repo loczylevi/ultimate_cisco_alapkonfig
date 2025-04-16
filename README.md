@@ -1,5 +1,82 @@
 # ultimate_cisco_alapkonfig
 
+
+```bash
+
+
+en
+conf t
+
+hostname SW2
+ip domain-name wmszki.hu
+
+username admin privilege 15 secret 1234
+enable secret 1234
+
+line con 0
+login local
+exec-timeout 5 0
+logging synchronous
+exit
+
+
+line vty 0 15
+transport input ssh
+login local
+exit
+
+
+crypto key generate rsa
+1024
+
+ip ssh version 2
+
+service password-encryption
+
+
+
+
+banner motd #
++---------------------------------------+
+|  ILLETÉKTELEN HOZZÁFÉRÉS TILOS!       |
+|  BELÉPÉS CSAK JOGOSULT SZEMÉLYEKNEK.  |
+|  MINDEN TEVÉKENYSÉG NAPLÓZVA VAN.     | 
++---------------------------------------+
+#
+
+
+! ftp user
+ip ftp username 1234
+ip ftp password 1234
+
+no ip domain-lookup
+
+! Mentés
+end
+copy running-config startup-config 
+wr
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ezt inkább ne használd mert rossz
+
 ```bash
 
 
