@@ -1,5 +1,13 @@
 # ultimate_cisco_alapkonfig
 
+## a generálásnál az 1024 után kell egy üres sor külömben rossz pl:
+```bash
+crypto key generate rsa
+1024
+
+ip ssh version 2
+service password-encryption
+```
 
 ```bash
 
