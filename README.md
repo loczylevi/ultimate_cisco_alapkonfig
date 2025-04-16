@@ -10,8 +10,6 @@ service password-encryption
 ```
 
 ```bash
-
-
 en
 conf t
 
@@ -41,9 +39,6 @@ ip ssh version 2
 
 service password-encryption
 
-
-
-
 banner motd #
 +---------------------------------------+
 |  ILLETEKTELEN HOZZAFERES TILOS!       |
@@ -60,10 +55,6 @@ no ip domain-lookup
 end
 copy running-config startup-config 
 wr
-
-
-
-
 
 ```
 
