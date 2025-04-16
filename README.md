@@ -1,4 +1,4 @@
-# ultimate_cisco_alapkonfig
+# Ultimate_cisco_alapkonfig
 
 ## A generálásnál az 1024 után kell egy üres sor különben rossz pl:
 ```bash
